@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ali Kalender — Cybersecurity & AI Engineer</title>
+  <meta name="description" content="METU computer engineering student focused on cybersecurity, AI, and immersive technologies." />
+  <meta property="og:title" content="Ali Kalender — Cybersecurity & AI Engineer" />
+  <meta property="og:description" content="METU computer engineering student focused on cybersecurity, AI, and immersive technologies." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- NAV -->
+  <nav class="nav" id="main-nav">
+    <a href="index.html" class="nav-logo">ali kalender</a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="nav-link active" id="nav-home">home</a></li>
+      <li><a href="projects.html" class="nav-link" id="nav-projects">projects</a></li>
+      <li><a href="about.html" class="nav-link" id="nav-about">about</a></li>
+      <li><a href="contact.html" class="nav-link" id="nav-contact">contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <main class="main">
+    <section class="hero" id="hero">
+      <h1 class="hero-title">
+        I build systems<span class="accent typewriter" id="typewriter"></span>
+      </h1>
+      <p class="hero-sub">
+        Computer engineering student at <span class="accent">Middle East Technical University</span>.
+        Focused on cybersecurity, AI, machine learning, and software reliability.
+        Currently interning at <span class="accent">Tamsdata Software</span> and
+        co-founding <span class="accent">Code Reality</span>, a VR startup at METU KALTEV.
+      </p>
+      <div class="hero-cta">
+        <a href="projects.html" class="cta-link" id="cta-work">&gt; see my work</a>
+        <a href="about.html" class="cta-link" id="cta-about">&gt; read about me</a>
+      </div>
+    </section>
+
+    <!-- FEATURED PROJECT -->
+    <section class="featured" id="featured-section">
+      <h2 class="section-label">all projects →</h2>
+      <a href="projects.html" class="project-card featured-card" id="featured-project">
+        <div class="card-tag launching">featured project</div>
+        <div class="card-name accent">Circudata — Digital Product Passport Platform</div>
+        <p class="card-desc">
+          A Digital Product Passport platform for product traceability, sustainability
+          data, and ESPR compliance. Contributing through security testing, bug reporting,
+          user testing, and regulation research at Tamsdata Software.
+        </p>
+        <div class="card-tags">
+          <span class="tag">Cybersecurity Testing</span>
+          <span class="tag">QA</span>
+          <span class="tag">ESPR</span>
+          <span class="tag">User Testing</span>
+          <span class="tag">Product Analysis</span>
+        </div>
+        <span class="card-cta">view project →</span>
+      </a>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

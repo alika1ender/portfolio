@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Ali Kalender</title>
+  <meta name="description" content="Projects by Ali Kalender — systems, cybersecurity, networking, and low-level programming." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <nav class="nav" id="main-nav">
+    <a href="index.html" class="nav-logo">ali kalender</a>
+    <ul class="nav-links">
+      <li><a href="index.html"    class="nav-link" id="nav-home">home</a></li>
+      <li><a href="projects.html" class="nav-link" id="nav-projects">projects</a></li>
+      <li><a href="about.html"    class="nav-link" id="nav-about">about</a></li>
+      <li><a href="contact.html"  class="nav-link" id="nav-contact">contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <main class="main">
+    <div class="page-header fade-in">
+      <h1 class="page-title">Things I've built.</h1>
+      <p class="page-sub">
+        Real systems, security experiments, and things that started as curiosity
+        and became working tools.
+      </p>
+    </div>
+
+    <div class="projects-grid">
+
+      <!-- Circudata — Digital Product Passport Platform -->
+      <div class="project-card featured-card fade-in" id="project-circudata">
+        <div class="card-tag launching">featured</div>
+        <div class="project-meta">Tamsdata Software · Long-Term Internship</div>
+        <div class="card-name accent">Circudata — Digital Product Passport Platform</div>
+        <p class="card-desc">
+          Circudata is a Digital Product Passport platform designed to help companies
+          manage product traceability, sustainability data, and regulatory compliance
+          under the EU Ecodesign for Sustainable Products Regulation. As part of my
+          long-term internship at Tamsdata Software, I contribute to the platform by
+          testing security issues, reporting bugs, conducting user tests, and researching
+          ESPR regulation requirements — focusing on improving product reliability,
+          identifying potential weaknesses, and translating regulatory requirements
+          into practical product feedback.
+        </p>
+        <ul class="card-contributions">
+          <li>Security issue testing and reporting</li>
+          <li>Bug discovery and documentation</li>
+          <li>User testing and usability feedback</li>
+          <li>ESPR regulation research</li>
+          <li>Digital Product Passport compliance analysis</li>
+          <li>Product improvement suggestions based on testing and research</li>
+        </ul>
+        <div class="card-tags">
+          <span class="tag">Cybersecurity Testing</span>
+          <span class="tag">QA</span>
+          <span class="tag">Bug Reporting</span>
+          <span class="tag">User Testing</span>
+          <span class="tag">Regulation Research</span>
+          <span class="tag">ESPR</span>
+          <span class="tag">Digital Product Passport</span>
+          <span class="tag">Product Analysis</span>
+        </div>
+      </div>
+
+      <!-- Code Reality — VR Software Development Startup -->
+      <div class="project-card fade-in" id="project-codereality">
+        <div class="project-meta">METU KALTEV · Co-Founded Startup</div>
+        <div class="card-name accent">Code Reality — VR Software Development Startup</div>
+        <p class="card-desc">
+          Code Reality is a VR software development startup I co-founded, based at
+          METU KALTEV. We develop immersive VR solutions across different fields,
+          combining software engineering, interactive experiences, and emerging
+          technologies. As Lead Software Engineer, I drive the technical architecture
+          and development of our VR applications.
+        </p>
+        <ul class="card-contributions">
+          <li>Co-Founder and Lead Software Engineer</li>
+          <li>VR application architecture and development</li>
+          <li>Cross-field immersive solution design</li>
+          <li>Software engineering with emerging technologies</li>
+          <li>Interactive experience development</li>
+        </ul>
+        <div class="card-tags">
+          <span class="tag">VR Development</span>
+          <span class="tag">Software Engineering</span>
+          <span class="tag">Unity</span>
+          <span class="tag">Startup</span>
+          <span class="tag">Immersive Tech</span>
+          <span class="tag">Interactive Design</span>
+          <span class="tag">METU KALTEV</span>
+        </div>
+      </div>
+
+      <!-- Port Scanner -->
+      <div class="project-card fade-in" id="project-portscanner">
+        <div class="card-tag launching">featured</div>
+        <div class="card-name accent">Python Port Scanner</div>
+        <p class="card-desc">
+          A custom-built network scanner inspired by Nmap. Uses raw TCP socket connections
+          to probe ports, detect open services, and map host behavior. Built not to use
+          a tool — but to understand how to build one. Covers socket programming,
+          TCP handshake mechanics, threading for speed, and real-world scanning behavior.
+        </p>
+        <div class="card-tags">
+          <span class="tag">Python</span>
+          <span class="tag">Sockets</span>
+          <span class="tag">TCP/IP</span>
+          <span class="tag">Networking</span>
+          <span class="tag">Cybersecurity</span>
+          <span class="tag">Threading</span>
+        </div>
+      </div>
+
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <span>ali kalender · <span class="accent">2025</span></span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
